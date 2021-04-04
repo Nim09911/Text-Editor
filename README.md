@@ -2,6 +2,11 @@
 ***Data Structures and Algorithms (mini project)***\
 \
 **Text editor**\
+
+UPDATE:
+Simple backspace rendering has now been fixed
+*Still issues with saving in regards to backspace and enter cases when shifting current buffer text to the next*
+OLD:
 Enter enters a newline at the next position regardless of cursor position\
 Backspace deletes the entire line if at 0 poition regardless of buffer length/size\
 *(working on)\
