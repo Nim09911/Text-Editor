@@ -1,8 +1,8 @@
 # DSA
 ***Data Structures and Algorithms (mini project)***\
 \
-**Text editor**\
-
+**Text editor**
+\
 UPDATE:
 Simple backspace rendering has now been fixed
 *Still issues with saving in regards to backspace and enter cases when shifting current buffer text to the next*
