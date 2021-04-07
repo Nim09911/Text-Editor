@@ -1,11 +1,9 @@
 # DSA
+***
 ***Data Structures and Algorithms (mini project)***\
-\
-**Text editor**
-\
-UPDATE:\
+**Text editor**\
+UPDATE(5&6):\
 ADDED: Vertical (page scrolling) by reprinting lines according to offset/page_number\
-ISSUES: Backspace not working->causing error, one keypress if up arrow key goes to prev page\
 OLD(4):\
 FIXED: newline error on saving which was the root cause of issues esp for backspace and enter has been fixed\
 OLD(3):\
