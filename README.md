@@ -2,6 +2,10 @@
 ***
 ***Data Structures and Algorithms (mini project)***\
 **Text editor**\
+
+JUMPING DIRECT TO 11
+  Lots of changes...horizontal scrolling, fixed backspace, added read mode, can open and save unsaved(not made before) and empty(seg fault before) files
+  Working on Resizing now
 UPDATE(5&6):\
 ADDED: Vertical (page scrolling) by reprinting lines according to offset/page_number\
 OLD(4):\
