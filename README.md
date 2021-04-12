@@ -1,7 +1,7 @@
 # DSA
 ***
 ***Data Structures and Algorithms (mini project)***\
-**Text editor**\
+**Text editor**
 
 JUMPING DIRECT TO 11
   Lots of changes...horizontal scrolling, fixed backspace, added read mode, can open and save unsaved(not made before) and empty(seg fault before) files
