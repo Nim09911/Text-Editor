@@ -1,0 +1,91 @@
+
+/********************************** This is a help file for teditor (text-editor) written by Nimit Jain **********************************/
+
+                                            ESC     : Enables Read (Only) Mode
+                                            i       : Enables Insert Mode (Default)
+                                            CTRL + s: Saves the current file
+                                            CTRL + q: Quits the editor
+                                            CTRL + d: Clears current line
+
+/**************************************************************************************************************************************/
+
+    To Open/Run program:
+        
+        ./main.o
+        ./main.o exitsting_filename
+        ./main.o new_filename
+        
+        WARNING:
+                teditor doesnt check if file name is acceptable or not. (while opening, or saving for the first time)
+                even if multiple filenames are given it will only open the first one.
+        NOTE:
+                teditor opens in insert mode as default
+
+    Saving:
+
+        'CTRL + s' to Save.
+        prompts to enter filename to save if teditor is opened without a file/filename.
+        (There is no Save as option for now)
+
+    Quitting:
+
+        'CTRL + q' to Quit.
+        directly quits if no changes were made.
+        if changes made, asks if you would like to save current changes (Enter y or Y to save)
+        then prompts to enter filename to save if teditor is opened without a file/filename.
+
+    Entering filename while saving:
+
+        Press enter to confirm
+        Press ESC to cancel
+    
+    WARNING: 
+        If you enter 'CTRL + q' and then cancel (by pressing ESC) it doesnt save and quits.
+        If you enter 'CTRL + s' and then cancel (by pressing ESC) it will return back to where you where
+        without saving the file.
+
+    READ and INSERT Mode:
+
+        Defualt mode (while opening) is currently the INSERT Mode.
+        Change to READ MODE by pressing ESC.
+        Return back to insert mode by pressing 'i'.
+        Navigation in the READ Mode is same as that of INSERT
+        (check page navigation for more details)
+        with the addition of h-k-j-k-l as alternate for arrow keys.
+
+    Tabs:
+        
+        Inserts blanks spaces till the next multiple of TAB_SIZE (is 4)
+        Deletion of tab not supported (must use backspace)
+
+    Clearing a line:
+
+        'CTRL + d' will clear the current line the cursor is on.
+        The cursor is shifted to the beginning of the line.
+
+    Page Navigation:
+
+        KEY_LEFT    : Move to the prev position in the line else move to the end of the prev line.
+        KEY_RIGHT   : Move to the next positon in the line else move to the beginning of the next line.
+        KEY_UP      : Move to the beginning of the prev line.
+        KEY_DOWN    : Move to the beginning of next line.
+        KEY_HOME    : Move to the beginning of the current line.
+        KEY_END     : Move to the end of the current line.
+        PAGE_UP     : Scroll a page up, and move to the beginning of the prev page.
+        PAGE_DN     : Scroll a page down, and move to the beginning of the next page,
+                        if last page, move to the end of the last page.
+    
+    Resizing:
+
+        Automatic Resising of the editor
+        WARNING:
+            (FIXED):    Cursor postion may change
+            Gives floating point exception error on resizing if the window is too small.
+            Resizing while saving (and entering file name) is not recommended.
+
+                                                          END OF HELP FILE
+/*****************************************************************************************************************************************/
+
+
+
+i want this to be saved.
