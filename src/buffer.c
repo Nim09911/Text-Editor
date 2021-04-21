@@ -32,7 +32,7 @@ void grow_gbuf(gbuf* buf) {
         size_t gap_right_len = buf->size - buf->gap_size - buf->gap_left;
         
         if( (buf->buffer = (char*)realloc(buf->buffer, buf->size*2)) ) {
-            buf->gap_size = buf->size;
+            buf->gap_size += buf->size;
             buf->size *= 2;
             //memmove copies data to an intermediate buffer and then copies it to the destination
             //overcomes memcpy() overlap problem
