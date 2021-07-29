@@ -1,4 +1,4 @@
-# DSA
+# DSA-Prject: Text Editor
 *Data Structures and Algorithms*
 ___
 Topic: Text Editor\
