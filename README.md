@@ -4,5 +4,5 @@ ___
 Topic: Text Editor\
 Status: Final Submission done\
 Data Structure Used: Gap Buffer\
-Info: Uses ncurses.h library
+Info: Uses ncurses.h library\
 Warning: Desgined for linux
